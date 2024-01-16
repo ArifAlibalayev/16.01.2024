@@ -1,0 +1,52 @@
+.formAdd{
+  max-width: 75%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  input{
+    padding: 10px 20px;
+  }
+  button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    
+    transition: background 1s linear;
+    color: white;
+    background: #00467f;
+    &:hover{
+      background: linear-gradient(to left, #00467f, #a5cc82);
+    }
+  }
+}
+
+table{
+  border: 2px solid #00467f;
+
+  max-width: 75%;
+  margin: 30px auto;
+  th{
+    border: 2px solid #00467f;
+    padding: 20px;
+  }
+  td{
+    text-align: center;
+
+    border: 2px solid #00467f;
+    padding: 20px;
+  }
+  button{
+    padding: 30px;
+    border: none;
+    outline: none;
+    transition: background 1s linear;
+    background: #00467f;
+    &:hover{
+      background: linear-gradient(to left, #00467f, #a5cc82);
+    }
+    color: white;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,30 @@
+#Header {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  height: 5vh;
+  #NavHeader {
+    max-width: 75%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .navBtns{
+      ul{
+        display: flex;
+        gap: 30px;
+      }
+    }
+  }
+}
+
+.activeNavLink {
+  color: white;
+}
+
+.pendingNavLink {
+  color: black;
+}
